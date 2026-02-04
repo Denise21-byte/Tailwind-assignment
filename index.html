@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tailwind App & Software Hero</title>
+  <title>Tailwind Hero</title>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -11,34 +11,34 @@
 <body class="bg-white text-gray-800">
 
   <!-- Hero Section -->
-  <section class="relative overflow-hidden">
-    <div class="max-w-7xl mx-auto px-6 py-20">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+  <section class="overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 py-14">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
         <!-- Text Content -->
         <div>
-          <p class="text-sm font-medium text-gray-500 mb-4">
+          <p class="text-xs font-medium text-gray-500 mb-3">
             Ready to Use Tailwind CSS Web Template.
           </p>
 
-          <h1 class="text-4xl md:text-5xl xl:text-6xl font-extrabold leading-tight text-gray-900">
+          <h1 class="text-3xl md:text-4xl font-extrabold leading-tight text-gray-900">
             Tailwind Template for <br />
             <span class="text-indigo-500">App & Software</span> Site.
           </h1>
 
-          <p class="mt-6 text-lg text-gray-500 max-w-xl">
+          <p class="mt-4 text-sm text-gray-500 max-w-md">
             All in one Tailwind CSS site template for App and Software sites.
             Comes with all essential components.
           </p>
 
           <!-- Buttons -->
-          <div class="mt-10 flex items-center gap-6 flex-wrap">
-            <button class="bg-gray-900 text-white px-7 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          <div class="mt-7 flex items-center gap-5 flex-wrap">
+            <button class="bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-800 transition">
               Download Now
             </button>
 
-            <button class="flex items-center gap-3 text-gray-900 font-medium hover:text-indigo-500 transition">
-              <span class="w-12 h-12 flex items-center justify-center rounded-full border border-gray-300">
+            <button class="flex items-center gap-2 text-sm text-gray-900 font-medium hover:text-indigo-500 transition">
+              <span class="w-9 h-9 flex items-center justify-center rounded-full border border-gray-300 text-xs">
                 ▶
               </span>
               Watch Demo
@@ -46,21 +46,20 @@
           </div>
         </div>
 
-        <!-- Image / Mockup -->
-        <div class="relative flex justify-center">
-          <!-- Decorative Circle -->
-          <div class="absolute w-80 h-80 md:w-[420px] md:h-[420px] bg-indigo-100 rounded-full -z-10"></div>
+        <!-- Image -->
+<div class="relative flex justify-center items-center">
 
-          <img
-            src="hero-light.png"
-            alt="App Preview"
-            class="w-72 md:w-80 lg:w-96 drop-shadow-xl"
-          />
-        </div>
+  <!-- Decorative Circle (bigger & visible) -->
+  <div class="absolute w-72 h-72 md:w-80 md:h-80 bg-indigo-100 rounded-full -z-10"></div>
 
-      </div>
-    </div>
-  </section>
+  <img
+    src="hero-light.png"
+    alt="App Preview"
+    class="w-60 md:w-64 drop-shadow-lg relative z-10"
+  />
+
+</div>
+
 
 </body>
 </html>
